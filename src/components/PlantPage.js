@@ -29,12 +29,20 @@ function PlantPage() {
 
   return (
     <main>
+      <Link to="/">  
+        <div className="btn"><p>X</p></div>
+      </Link>
+      
+      <Link to="/">  
+        <div className="btn2"><p>X</p></div>
+      </Link>
+
       <NewPlantForm handleAddPlant={handleAddPlant} />
-      <Search searchTerm={searchTerm} onSearchChange={setSearchTerm}/>
-      <PlantList plants={displayedPlants}/>
       <Link to="/">
         <button className="introbutton">Back To DEMO</button>
         </Link>
+      <Search searchTerm={searchTerm} onSearchChange={setSearchTerm}/>
+      <PlantList plants={displayedPlants}/>
     </main>
   );
 }
