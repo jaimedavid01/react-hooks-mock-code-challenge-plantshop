@@ -41,6 +41,24 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Water",
+      "image": "http://localhost:6002/images/pilea.jpg",
+      "price": 0.93,
+      "id": 8
+    },
+    {
+      "name": "Water 2",
+      "image": "http://localhost:6002/images/zz-plant.jpg",
+      "price": 23,
+      "id": 9
+    },
+    {
+      "name": "",
+      "image": "",
+      "price": 0,
+      "id": 10
     }
   ]
 }

@@ -1,0 +1,53 @@
+.intro {
+    display: flex;
+    padding: 50px;
+    background-color: white;
+    height: max-content;
+}
+
+.gif {
+    width: 90%;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+.intro__left {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 70%;
+    background-color: rgb(235, 232, 232);
+    border-radius: 15px;
+    justify-content: center!important;
+}
+
+.intro__right {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.introbutton {
+    background: green;
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    border: 2px solid;
+    margin-top: 10px;
+    border-color: lightgreen;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    align-items: center !important;
+}
+
+.h1title {
+    color: green;
+}
+
+.demo {
+    text-decoration: solid;
+    padding-bottom: 20px;
+    text-align: center;
+}
