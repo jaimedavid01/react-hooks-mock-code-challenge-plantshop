@@ -1,4 +1,5 @@
 {
+  "homepage": "http://jaimedavid01.github.io/react-hooks-mock-code-challenge-plantshop",
   "name": "react-hooks-mock-code-challenge-plantshop",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +11,12 @@
     "react-scripts": "4.0.1"
   },
   "scripts": {
-    "start": "json-server --watch db.json -p 6001 & open http://localhost:6001/plants & PORT=6002 react-scripts start && fg"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "json-server --watch db.json -p 6001 & open http://localhost:6001/plants & PORT=6002 react-scripts start && fg",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -29,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
