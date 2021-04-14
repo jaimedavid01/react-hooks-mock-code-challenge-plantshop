@@ -9,7 +9,7 @@ function NewPlantForm({ handleAddPlant }) {
     function handleSubmit(e) {
       e.preventDefault();
       console.log("HandleSubmit")
-      fetch("http://localhost:6001/plants", {
+      fetch("https://plantdb01.herokuapp.com/plants", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

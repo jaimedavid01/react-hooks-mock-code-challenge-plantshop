@@ -10,7 +10,7 @@ function PlantPage() {
   const [searchTerm, setSearchTerm] = useState("")
 
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://plantdb01.herokuapp.com/plants")
       .then((r) => r.json())
       .then(plantsArray => {
         setPlants(plantsArray)
@@ -38,9 +38,6 @@ function PlantPage() {
       </Link>
 
       <NewPlantForm handleAddPlant={handleAddPlant} />
-      <Link to="/">
-        <button className="introbutton">Back To DEMO</button>
-        </Link>
       <Search searchTerm={searchTerm} onSearchChange={setSearchTerm}/>
       <PlantList plants={displayedPlants}/>
     </main>

@@ -7,11 +7,9 @@ function Intro() {
     return (
         <div className="intro">
             <Link to="/app">  
-            <div className="btn">
-                <p>X</p>
-            </div>
+            <div className="btn"><p>X</p></div>
             </Link>
-            
+
             <div className="intro__left">
                 <img className="gif" src={GIF} alt="" />
                 <h1 className="h1title demo">DEMO</h1>
