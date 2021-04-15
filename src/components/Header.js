@@ -8,7 +8,8 @@ function Header() {
         <span className="logo" role="img">
           🌱
         </span>
-      </h1>
+      </h1><br></br>
+      <p>* Data may take a few seconds to fetch *</p>
     </header>
   );
 }
