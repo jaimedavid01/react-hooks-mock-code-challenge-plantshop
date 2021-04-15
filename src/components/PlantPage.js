@@ -29,9 +29,10 @@ function PlantPage() {
 
   return (
     <main>
-      <Link to="/">  
+     <a href="https://jaimeportfolio.herokuapp.com/">
         <div className="btn"><p>X</p></div>
-      </Link>
+     </a>
+      
       
       <Link to="/">  
         <div className="btn2"><p>X</p></div>
